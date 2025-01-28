@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.scimg{
+    width: 80px ;
+    height: 80px;
+}
+.scimg img{
+    width: 100%;
+    height: 100%;
+}
+.imgbox{
+    width: 100%;
+    height: 70vh;
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.galleryimg{
+    width: 100%;
+    height: 200px;
+}
+.galleryimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.one{
+    width: 100%;
+    height: 200px;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footimg{
+    width: 100px;
+    height: 100px;
+}
+.footimg img{
+    width: 100%;
+    height: 100%;
+}
