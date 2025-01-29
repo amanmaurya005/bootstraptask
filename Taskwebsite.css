@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-.scimg{
+.logo{
     width: 80px ;
     height: 80px;
 }
-.scimg img{
+.logo img{
     width: 100%;
     height: 100%;
 }
@@ -19,6 +19,22 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.main a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.main li{
+    padding: 0 10px;
+}
+.main .bg-light{
+    background: #f3f3f3 !important;
+}
+.main{
+    background: #f3f3f3 !important;
+    box-shadow: 5px 5px 10px grey !important;
 }
 .galleryimg{
     width: 100%;
@@ -45,4 +61,17 @@
 .footimg img{
     width: 100%;
     height: 100%;
+}
+.map{
+    width: 100%;
+    height: 300px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.btn-primary{
+    border-radius: 1.5rem;
+    margin: 0 0 0 10px;
+    padding: 10px 2rem;
 }
